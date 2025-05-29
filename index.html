@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovationsfondsprojekt: Urheberschaft geht alle etwas an</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .section-title {
+            @apply text-3xl font-bold text-gray-800 mb-8 text-center;
+        }
+        .card {
+            @apply bg-white rounded-xl shadow-lg overflow-hidden transition-transform hover:scale-105;
+        }
+        .card-content {
+            @apply p-6;
+        }
+        .nav-link {
+            @apply text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors;
+        }
+        .nav-link-active {
+            @apply bg-blue-100 text-blue-700;
+        }
+        .btn {
+            @apply inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 transition-colors;
+        }
+        .tag {
+            @apply inline-block bg-blue-100 text-blue-700 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-700">
+
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0">
+                    <h1 class="text-xl font-bold text-blue-700">Urheberschaftskompetenz</h1>
+                </div>
+                <nav class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#overview" class="nav-link nav-link-active">Projektübersicht</a>
+                        <a href="#modules" class="nav-link">Module</a>
+                        <a href="#research" class="nav-link">Forschung</a>
+                        <a href="#roadmap" class="nav-link">Roadmap</a>
+                        <a href="#adapt" class="nav-link">Anpassen</a>
+                        <a href="#team" class="nav-link">Team</a>
+                    </div>
+                </nav>
+                <div class="md:hidden">
+                    <button type="button" class="text-gray-500 hover:text-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20 sm:py-32">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl sm:text-5xl font-extrabold mb-6">Urheberschaft geht alle etwas an</h2>
+            <p class="text-lg sm:text-xl mb-10 max-w-3xl mx-auto">
+                Ein Innovationsfondsprojekt zur Förderung der Urheberschaftskompetenz an der Berufsbildungsschule Winterthur – und darüber hinaus.
+            </p>
+            <a href="#overview" class="btn bg-white text-blue-700 hover:bg-gray-100">Mehr Erfahren</a>
+        </div>
+    </section>
+
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        <section id="overview" class="py-16">
+            <h3 class="section-title">Projektübersicht</h3>
+            <div class="bg-white p-8 rounded-xl shadow-xl max-w-4xl mx-auto">
+                <p class="mb-4 text-lg leading-relaxed">
+                    Dieses Projekt zielt darauf ab, die Urheberschaftskompetenz aller Akteure an Berufsbildungsschulen zu fördern und zu etablieren.
+                    Anstatt traditioneller Unterrichtsformen werden flexible "Mission-Module" entwickelt, die individuell in den regulären Unterricht oder die Arbeitszeit integriert werden können.
+                    Ziel ist es, Lernende, Lehrpersonen sowie Verwaltungs- und Hausdienstmitarbeitende als Medienproduzenten anzusprechen und sie für die Chancen und Herausforderungen des Urheberrechts zu sensibilisieren.
+                </p>
+                <p class="mb-4 text-lg leading-relaxed">
+                    Der Innovationsfonds ermöglicht die Entwicklung einer Roadmap und dreier exemplarischer Showcase-Module, die als Grundlage für andere Schulen dienen sollen.
+                    Diese Module werden mit H5P erstellt und sind für den Einsatz in Lernmanagementsystemen wie OLAT oder Moodle konzipiert.
+                </p>
+                <div class="mt-6">
+                    <h4 class="font-semibold text-xl mb-2 text-gray-800">Kernziele des Projekts:</h4>
+                    <ul class="list-disc list-inside space-y-1 text-lg">
+                        <li>Entwicklung einer übertragbaren Roadmap zur Implementierung von Urheberschaftsmodulen.</li>
+                        <li>Erstellung von 3 Showcase "Mission-Modulen" als H5P-Inhalte.</li>
+                        <li>Sensibilisierung aller Schulakteure für Urheberrechtsfragen.</li>
+                        <li>Förderung eines verantwortungsvollen Umgangs mit digitalen Medien.</li>
+                        <li>Stärkung der Medienkompetenz und des ethischen Handelns.</li>
+                    </ul>
+                </div>
+                <!-- <div class="mt-8 text-center">
+                    <a href="./project-overview/details.html" class="btn">Ausführliche Projektbeschreibung</a>
+                </div> -->
+            </div>
+        </section>
+
+        <section id="modules" class="py-16 bg-gray-100 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8">
+            <h3 class="section-title">Showcase Mission-Module</h3>
+            <p class="text-center text-lg max-w-2xl mx-auto mb-12">
+                Diese drei Showcase-Module demonstrieren den Ansatz des Projekts. Sie sind als H5P-Pakete konzipiert und können in gängige Lernmanagementsysteme integriert werden. Jedes Modul enthält interaktive Elemente und praxisnahe Szenarien.
+            </p>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="card">
+                    <img src="https://placehold.co/600x400/3B82F6/FFFFFF?text=Modul+1" alt="Modul 1 Platzhalterbild" class="w-full h-48 object-cover">
+                    <div class="card-content">
+                        <h4 class="font-bold text-xl text-gray-800 mb-2">Modul 1: Urheberrecht Essentials & Schulrichtlinien</h4>
+                        <span class="tag">Cluster A</span>
+                        <p class="text-sm mb-4">
+                            Grundlagen des Urheberrechts, wichtige Schweizer Gesetzesartikel für Bildungseinrichtungen (Art. 19 & 25 URG) und schulinterne Richtlinien verständlich aufbereitet.
+                        </p>
+                        <a href="./modules/module1_essentials/index.html" class="btn text-sm w-full text-center">Zum Modul 1</a>
+                        <div class="mt-3 text-xs text-gray-500">
+                            <p>H5P Inhalt: <a href="./modules/module1_essentials/h5p_content/" class="text-blue-500 hover:underline">Hier ansehen</a></p>
+                            <p>Forschungsmaterial: <a href="./modules/module1_essentials/research_materials/" class="text-blue-500 hover:underline">Hier ansehen</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://placehold.co/600x400/10B981/FFFFFF?text=Modul+2" alt="Modul 2 Platzhalterbild" class="w-full h-48 object-cover">
+                    <div class="card-content">
+                        <h4 class="font-bold text-xl text-gray-800 mb-2">Modul 2: Medienprojekte legal gestalten ODER Creative Commons professionell nutzen</h4>
+                        <span class="tag">Cluster B / C</span>
+                        <p class="text-sm mb-4">
+                            Praktische Fähigkeiten zur legalen Mediennutzung (Bilder, Audio, Video) ODER ein tiefer Einblick in Creative Commons Lizenzen für die Nutzung und das Teilen von Inhalten.
+                        </p>
+                        <a href="./modules/module2_media_creation/index.html" class="btn text-sm w-full text-center mb-2">Option: Medienprojekte</a>
+                        <a href="./modules/module2_creative_commons/index.html" class="btn text-sm w-full text-center bg-green-600 hover:bg-green-700">Option: Creative Commons</a>
+                         <div class="mt-3 text-xs text-gray-500">
+                            <p>H5P (Medien): <a href="./modules/module2_media_creation/h5p_content/" class="text-blue-500 hover:underline">Ansehen</a></p>
+                            <p>H5P (CC): <a href="./modules/module2_creative_commons/h5p_content/" class="text-blue-500 hover:underline">Ansehen</a></p>
+                            <p>Forschung (beide): <a href="./modules/module2_shared_research/" class="text-blue-500 hover:underline">Ansehen</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://placehold.co/600x400/F59E0B/FFFFFF?text=Modul+3" alt="Modul 3 Platzhalterbild" class="w-full h-48 object-cover">
+                    <div class="card-content">
+                        <h4 class="font-bold text-xl text-gray-800 mb-2">Modul 3: Copyright im digitalen Zeitalter navigieren</h4>
+                        <span class="tag">Cluster D</span>
+                        <p class="text-sm mb-4">
+                            Umgang mit Urheberrecht auf Online-Plattformen, Social Media, Softwarelizenzierung und ethische Aspekte neuer Technologien wie KI.
+                        </p>
+                        <a href="./modules/module3_digital_age/index.html" class="btn text-sm w-full text-center">Zum Modul 3</a>
+                        <div class="mt-3 text-xs text-gray-500">
+                            <p>H5P Inhalt: <a href="./modules/module3_digital_age/h5p_content/" class="text-blue-500 hover:underline">Hier ansehen</a></p>
+                            <p>Forschungsmaterial: <a href="./modules/module3_digital_age/research_materials/" class="text-blue-500 hover:underline">Hier ansehen</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="research" class="py-16">
+            <h3 class="section-title">Forschung & Ressourcen</h3>
+            <div class="bg-white p-8 rounded-xl shadow-xl max-w-4xl mx-auto text-center">
+                <p class="mb-6 text-lg leading-relaxed">
+                    Dieses Projekt basiert auf einer sorgfältigen Recherche zu pädagogischen Ansätzen, Urheberrechtsfragen und den Bedürfnissen der verschiedenen Akteure im Schulumfeld. Hier finden Sie eine Sammlung der zugrundeliegenden Forschungsmaterialien, Literatur und nützlicher Links.
+                </p>
+                <a href="./research_resources/index.html" class="btn">Zu den Forschungsressourcen</a>
+                <p class="mt-4 text-sm text-gray-600">
+                    (Hier werden Sie Links zu allgemeinen Forschungsgrundlagen, spezifischen Materialien pro Cluster/Modul und methodischen Überlegungen finden.)
+                </p>
+            </div>
+        </section>
+
+        <section id="roadmap" class="py-16 bg-gray-100 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8">
+            <h3 class="section-title">Roadmap & Weiterentwicklung</h3>
+            <div class="bg-white p-8 rounded-xl shadow-xl max-w-4xl mx-auto">
+                <p class="mb-4 text-lg leading-relaxed">
+                    Die initialen Showcase-Module und dieser Prototyp bilden den ersten Schritt. Die Roadmap des Projekts sieht eine kontinuierliche Weiterentwicklung, die Erstellung zusätzlicher Module und die Sammlung von Best Practices für eine breite Implementierung vor.
+                </p>
+                <h4 class="font-semibold text-xl mb-2 text-gray-800">Geplante nächste Schritte:</h4>
+                 <ul class="list-disc list-inside space-y-1 text-lg mb-6">
+                    <li>Erweiterung der Modulbibliothek basierend auf den 4 Clustern.</li>
+                    <li>Entwicklung von Leitfäden für die Anpassung und Implementierung an anderen Schulen.</li>
+                    <li>Aufbau einer Community of Practice zum Austausch von Erfahrungen.</li>
+                    <li>Integration von Feedback aus weiteren Pilotphasen.</li>
+                </ul>
+                <div class="text-center">
+                    <a href="./roadmap/index.html" class="btn">Details zur Roadmap</a>
+                </div>
+            </div>
+        </section>
+
+         <section id="adapt" class="py-16">
+            <h3 class="section-title">Projekt nutzen & anpassen</h3>
+            <div class="bg-white p-8 rounded-xl shadow-xl max-w-4xl mx-auto text-center">
+                <p class="mb-6 text-lg leading-relaxed">
+                    Dieses Projekt und seine Materialien sind darauf ausgelegt, von anderen Schulen und Bildungseinrichtungen genutzt und angepasst zu werden. Hier finden Sie Anleitungen, wie Sie die Module in Ihrem eigenen Kontext einsetzen und weiterentwickeln können.
+                </p>
+                <a href="./how_to_adapt/index.html" class="btn">Anleitung zur Anpassung</a>
+                 <p class="mt-4 text-sm text-gray-600">
+                    (Enthält Tipps zur technischen Integration, didaktischen Anpassung und zum Teilen eigener Erweiterungen.)
+                </p>
+            </div>
+        </section>
+
+        <section id="team" class="py-16 bg-gray-100 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8">
+            <h3 class="section-title">Das Projektteam</h3>
+             <div class="bg-white p-8 rounded-xl shadow-xl max-w-4xl mx-auto text-center">
+                <p class="mb-6 text-lg leading-relaxed">
+                    Lernen Sie die Personen hinter diesem Innovationsfondsprojekt kennen. Wir sind ein engagiertes Team von zwei Personen, das sich der Förderung von Medien- und Urheberschaftskompetenz verschrieben hat.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-8">
+                    <div class="text-center">
+                        <img src="https://placehold.co/150x150/A5B4FC/FFFFFF?text=Team+1" alt="Teammitglied 1" class="w-32 h-32 rounded-full mx-auto mb-2 shadow-md">
+                        <h5 class="font-semibold text-lg">Name Partner 1</h5>
+                        <p class="text-sm text-gray-600">Rolle / Schule</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="https://placehold.co/150x150/A5B4FC/FFFFFF?text=Team+2" alt="Teammitglied 2" class="w-32 h-32 rounded-full mx-auto mb-2 shadow-md">
+                        <h5 class="font-semibold text-lg">Name Partner 2</h5>
+                        <p class="text-sm text-gray-600">Rolle / Schule</p>
+                    </div>
+                </div>
+                <div class="mt-8">
+                     <a href="./about_team/index.html" class="btn">Mehr über uns</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="mb-2">&copy; <span id="currentYear"></span> Innovationsfondsprojekt "Urheberschaft geht alle etwas an".</p>
+            <p class="text-sm text-gray-400">Berufsbildungsschule Winterthur (Beispiel)</p>
+            <p class="text-xs text-gray-500 mt-4">
+                Dieses Projekt wird durch den Innovationsfonds unterstützt.
+                Die Inhalte sind unter einer <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" target="_blank" rel="noopener noreferrer" class="underline hover:text-blue-300">Creative Commons BY-SA 4.0 Lizenz</a> veröffentlicht (sofern nicht anders angegeben).
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Simple smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                    // Update active nav link (basic version)
+                    document.querySelectorAll('.nav-link').forEach(link => link.classList.remove('nav-link-active'));
+                    if (!this.classList.contains('btn')) { // Avoid styling buttons as active nav links
+                         this.classList.add('nav-link-active');
+                    }
+                }
+            });
+        });
+
+        // Basic mobile menu toggle (optional, enhance as needed)
+        const mobileMenuButton = document.querySelector('.md\\:hidden button');
+        const navMenu = document.querySelector('nav.hidden.md\\:block'); // This selector needs to be more specific if you implement a real mobile menu
+        if (mobileMenuButton && navMenu) {
+            // This is a placeholder for mobile menu functionality.
+            // A real implementation would involve creating a mobile menu div
+            // and toggling its visibility.
+            // For now, it doesn't do anything functional.
+        }
+    </script>
+
+</body>
+</html>
