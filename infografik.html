@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infografik: Urheberrecht Grundlagen im Bildungswesen</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light blue-gray background */
+        }
+        .card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card-title {
+            font-size: 1.5rem; /* 24px */
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: #1e3a8a; /* Dark blue */
+        }
+        .card-icon {
+            font-size: 2.5rem; /* 40px */
+            margin-bottom: 12px;
+            color: #3b82f6; /* Medium blue */
+        }
+        .list-item {
+            display: flex;
+            align-items: start;
+            margin-bottom: 8px;
+            font-size: 0.95rem; /* Slightly smaller for list items */
+            color: #374151; /* Cool gray */
+        }
+        .list-item svg {
+            flex-shrink: 0;
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+            color: #3b82f6; /* Medium blue */
+        }
+        .highlight {
+            color: #d97706; /* Amber for highlights */
+            font-weight: 600;
+        }
+        .section-divider {
+            border-top: 2px dashed #93c5fd; /* Lighter blue dashed line */
+            margin-top: 32px;
+            margin-bottom: 32px;
+        }
+        .footer-text {
+            font-size: 0.875rem; /* 14px */
+            color: #6b7280; /* Gray */
+            text-align: center;
+            margin-top: 32px;
+        }
+        /* Icon styles */
+        .icon-copyright:before { content: "©"; }
+        .icon-book:before { content: "📖"; }
+        .icon-user:before { content: "👤"; }
+        .icon-rights:before { content: "⚖️"; }
+        .icon-calendar:before { content: "📅"; }
+        .icon-plagiarism:before { content: "🎭"; }
+        .icon-law:before { content: "📜"; }
+        .icon-warning:before { content: "⚠️"; }
+        .icon-help:before { content: "❓"; }
+
+        /* More specific icons using SVG for better control and appearance */
+        .svg-icon {
+            width: 1.5em;
+            height: 1.5em;
+            margin-right: 0.5em;
+            fill: currentColor;
+        }
+
+    </style>
+</head>
+<body class="p-4 md:p-8">
+    <div class="max-w-4xl mx-auto">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-blue-700 mb-4">Urheberrecht im Bildungswesen</h1>
+            <p class="text-lg text-gray-600">Ein schneller Überblick für Schulen</p>
+        </header>
+
+        <div class="card">
+            <div class="flex items-center mb-4">
+                <svg class="svg-icon card-icon text-blue-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+                <h2 class="card-title">Was ist Urheberrecht? (Urheberrecht Grundlagen)</h2>
+            </div>
+            <ul class="space-y-2">
+                <li class="list-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                    <span><span class="font-semibold">Definition:</span> Schützt <span class="highlight">Ausdrucksformen</span> von Ideen (nicht Ideen selbst).</span>
+                </li>
+                <li class="list-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                    <span><span class="font-semibold">Zweck:</span> Anreiz für Kreativität, Schutz für Urheber.</span>
+                </li>
+                <li class="list-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                    <span><span class="font-semibold">Entstehung:</span> Automatisch bei Schöpfung, keine Registrierung nötig in der Schweiz.</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="card">
+             <div class="flex items-center mb-4">
+                <svg class="svg-icon card-icon text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M19.48 5.52a1 1 0 00-1.41 0L8 15.59l-3.07-3.07a1 1 0 00-1.41 1.41l3.77 3.78c.2.2.45.29.71.29.26 0 .51-.1.71-.29l11.29-11.29a1 1 0 000-1.41zM4 3h16a1 1 0 011 1v16a1 1 0 01-1 1H4a1 1 0 01-1-1V4a1 1 0 011-1zm1 2v14h14V5H5z"/></svg>
+                <h2 class="card-title">Was ist geschützt? (Relevante Werke für Schulen)</h2>
+            </div>
+            <ul class="space-y-2">
+                <li class="list-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                    <span>Texte (Bücher, Artikel, Schülerarbeiten, Arbeitsblätter)</span>
+                </li>
+                <li class="list-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                    <span>Bilder, Videos, Präsentationen, Musik</span>
+                </li>
+                <li class="list-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                    <span>Software-Code (von Schülern/Lehrern erstellt)</span>
+                </li>
+                 <li class="list-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                    <span>Fotos (auch ohne "individuellen Charakter" seit 2020)</span>
+                </li>
+                <li class="list-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-red-500" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" /></svg>
+                    <span><span class="font-semibold">Nicht geschützt:</span> Reine Ideen, Fakten, Daten, Gesetze.</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <div class="card">
+            <div class="flex items-center mb-4">
+                <svg class="svg-icon card-icon text-purple-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+                <h2 class="card-title">Urheberschaft & Originalität</h2>
+            </div>
+             <ul class="space-y-2">
+                <li class="list-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                    <span><span class="font-semibold">Urheber (Autor):</span> Immer die <span class="highlight">natürliche Person</span>, die das Werk geschaffen hat (z.B. Schüler, Lehrer). KI kann kein Urheber sein.</span>
+                </li>
+                <li class="list-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                    <span><span class="font-semibold">Originalität (Individualität):</span> Werk muss eigenen intellektuellen Ausdruck widerspiegeln, sich von Bestehendem abheben. (Ausnahme: Fotos von 3D-Objekten)</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <div class="flex items-center mb-4">
+                <svg class="svg-icon card-icon text-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg>
+                <h2 class="card-title">Rechte des Urhebers</h2>
+            </div>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700 mb-2">Persönlichkeitsrechte (Moral Rights)</h3>
+                    <ul class="space-y-1">
+                        <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" /></svg>Nennung als Urheber</li>
+                        <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10 12a2 2 0 100-4 2 2 0 000 4z" /><path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" /></svg>Entscheidung über Erstveröffentlichung</li>
+                        <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.414-1.414L11 7.414V5z" clip-rule="evenodd" /></svg>Schutz der Werkintegrität</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700 mb-2">Vermögensrechte (Economic Rights)</h3>
+                     <ul class="space-y-1">
+                        <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z" /></svg>Kopieren, Verbreiten</li>
+                        <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M2.003 5.884L10 2.5l7.997 3.384A1 1 0 0019 7V15a1 1 0 100 2v-3a1 1 0 00-.553-.894L10 9.5l-8.447 3.606A1 1 0 001 14v3a1 1 0 100-2V7a1 1 0 00.003-1.116zM10 8a1 1 0 100-2 1 1 0 000 2z" /></svg>Öffentlich zugänglich machen (auch online)</li>
+                        <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M8.5 2.5a.5.5 0 00-1 0v11a.5.5 0 001 0v-11zM11.5 2.5a.5.5 0 011 0v11a.5.5 0 01-1 0v-11zM2 14.5a2 2 0 012-2h12a2 2 0 012 2v1a2 2 0 01-2 2H4a2 2 0 01-2-2v-1z" /></svg>Senden, Weiterverbreiten</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="card">
+                <div class="flex items-center mb-4">
+                    <svg class="svg-icon card-icon text-teal-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                    <h2 class="card-title">Dauer des Schutzes</h2>
+                </div>
+                <ul class="space-y-2">
+                    <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd" /></svg>Allgemein: <span class="highlight">70 Jahre</span> nach Tod des Urhebers.</li>
+                    <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd" /></svg>Computerprogramme: <span class="highlight">50 Jahre</span> nach Tod des Urhebers.</li>
+                    <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd" /></svg>Fotos (ohne indiv. Charakter): <span class="highlight">50 Jahre</span> nach Erstellung.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="flex items-center mb-4">
+                     <svg class="svg-icon card-icon text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-2-4h4v-2h-4v2zm0-4h4V8h-4v4z"/></svg>
+                    <h2 class="card-title">Urheberrechtsverletzung vs. Plagiat</h2>
+                </div>
+                <ul class="space-y-2">
+                    <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" /><path fill-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd" /></svg><span class="font-semibold">Urheberrechtsverletzung:</span> <span class="highlight">Rechtlicher</span> Verstoss (unerlaubte Nutzung).</li>
+                    <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" /><path fill-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd" /></svg><span class="font-semibold">Plagiat:</span> <span class="highlight">Ethisch/akademischer</span> Verstoss (fremde Arbeit als eigene ausgeben).</li>
+                    <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" /><path fill-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd" /></svg>Kann überlappen, aber nicht identisch.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <div class="card">
+            <div class="flex items-center mb-4">
+                <svg class="svg-icon card-icon text-indigo-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+                <h2 class="card-title">Wichtige Schweizer Gesetze (URG) für Schulen</h2>
+            </div>
+            <div class="space-y-4">
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700 mb-1">Art. 19 URG: Eigengebrauch für den Unterricht</h3>
+                    <ul class="space-y-1">
+                        <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg>Lehrer dürfen Werke für Klasse/Unterricht nutzen (auch auf internem Schulnetzwerk/LMS).</li>
+                        <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" class="text-red-500" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" /></svg><span class="font-semibold">Aber:</span> Kein vollständiges Kopieren kommerziell erhältlicher Werke (z.B. Lehrbücher). Auszüge sind ok.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700 mb-1">Art. 25 URG: Zitatrecht</h3>
+                    <ul class="space-y-1">
+                        <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg>Zitate erlaubt, wenn sie als Erläuterung, Hinweis, Illustration dienen.</li>
+                        <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg>Umfang muss durch Zweck gerechtfertigt sein.</li>
+                        <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg><span class="highlight">Wichtig:</span> Als Zitat kennzeichnen, Quelle und Autor nennen!</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700 mb-1">Verwertungsgesellschaften (ProLitteris, SUISA etc.)</h3>
+                    <ul class="space-y-1">
+                        <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg>Verwalten Rechte, ziehen Gebühren ein (z.B. für Kopien via <span class="highlight">Gemeinsamer Tarif 7</span>). Schulen zahlen oft Pauschalen.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="card">
+                <div class="flex items-center mb-4">
+                    <svg class="svg-icon card-icon text-red-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+                    <h2 class="card-title">Konsequenzen bei Verstössen</h2>
+                </div>
+                <ul class="space-y-2">
+                    <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10.394 2.08a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" /></svg><span class="font-semibold">Rechtlich:</span> Geldstrafen, Schadenersatz, ggf. Freiheitsstrafen.</li>
+                    <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10.394 2.08a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" /></svg><span class="font-semibold">Schulisch:</span> Disziplinarmassnahmen (bei Plagiat/Verstoss gegen Schulordnung).</li>
+                    <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10.394 2.08a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" /></svg><span class="font-semibold">Ethisch:</span> Unfairness gegenüber Urhebern, Verlust akademischer Integrität.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="flex items-center mb-4">
+                    <svg class="svg-icon card-icon text-sky-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-10V8h2v4h-2zm0 4v-2h2v2h-2z"/></svg>
+                    <h2 class="card-title">Hilfe & Richtlinien in der Schule</h2>
+                </div>
+                 <ul class="space-y-2">
+                    <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" /><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" /></svg>Interne Schulrichtlinien (Website, Handbuch, LMS).</li>
+                    <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" /><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" /></svg>Ansprechpartner: Bibliothekare, IT-Support, Fachlehrer, Schulleitung.</li>
+                    <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" /><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" /></svg>Schullizenzen für Datenbanken, Software etc. nutzen.</li>
+                </ul>
+            </div>
+        </div>
+
+        <footer class="footer-text">
+            <p>Diese Infografik dient als erste Orientierung. Für detaillierte Informationen konsultieren Sie bitte die offiziellen Schulrichtlinien und das Schweizer Urheberrechtsgesetz (URG).</p>
+            <p>&copy; <span id="currentYear"></span> Ihre Schule. Basierend auf Modul 1: "Copyright Essentials at Our School".</p>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
